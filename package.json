@@ -1,12 +1,15 @@
 {
   "name": "airdnd-backend",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "server:dev": "set NODE_ENV=development&&nodemon server.js",
-    "server:prod": "set NODE_ENV=production&&node server.js"
+    "server:prod": "node server.js"
   },
   "author": "yotam aloni",
   "license": "ISC",
